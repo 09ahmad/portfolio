@@ -44,8 +44,12 @@ export const Navbar = () => {
   return (
     <nav className="text-white py-2">
       <div className="flex justify-between items-center relative z-50">
-        <div className="text-3xl font-bold">
+        <div className="text-3xl font-bold flex items-center gap-1.5">
           <h1 className="font-serif leading-tight">B Farooq</h1>
+          <span className="relative flex h-2 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-600 opacity-75" />
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-800" />
+          </span>
         </div>
 
         {/* Desktop */}

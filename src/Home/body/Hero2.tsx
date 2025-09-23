@@ -66,6 +66,7 @@ export const Hero2 = () => {
             <h2 className="text-2xl font-semibold text-gray-300">
               {project.title}
             </h2>
+
             <p className="text-sm text-gray-500 font-medium leading-tight line-clamp-4">
               {project.decs}
             </p>

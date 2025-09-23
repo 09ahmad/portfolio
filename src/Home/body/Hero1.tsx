@@ -9,6 +9,7 @@ export const Hero1 = () => {
       title: "INDIA",
     },
     {
+      id: "roleText",
       icon: <PiSuitcaseSimpleFill size={20} />,
       title: "Open to full-time roles",
     },
