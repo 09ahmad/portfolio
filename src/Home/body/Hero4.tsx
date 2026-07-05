@@ -2,9 +2,14 @@ export const Hero4 = () => {
   const blogs = [
     {
       title:
-        "Setting Up Zustand in a Turborepo Monorepo: A Step-by-Step Guide ",
+        "How I Broke My Dual Boot, Lost Both Windows and Linux, and Clawed My Way Back with Just a Terminal",
       link:
-        "https://medium.com/@farooq32176/setting-up-zustand-in-a-turborepo-monorepo-a-step-by-step-guide-30a1b30489d7",
+        "https://dev.to/ahmad09/how-i-broke-my-dual-boot-lost-both-windows-and-linux-and-clawed-my-way-back-with-just-a-terminal-4i3p",
+    },
+    {
+      title: "Setting Up a Monorepo Workspace with Turborepo: A Complete Guide",
+      link:
+        "https://dev.to/ahmad09/setting-up-a-monorepo-workspace-with-turborepo-a-complete-guide-3ofd",
     },
   ];
 

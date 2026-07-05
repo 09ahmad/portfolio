@@ -3,7 +3,6 @@ import { MdOutlineMenuOpen } from "react-icons/md";
 import { RiTwitterXLine } from "react-icons/ri";
 import { SiGithub } from "react-icons/si";
 import { TbBrandLinkedin } from "react-icons/tb";
-import { RxNotionLogo } from "react-icons/rx";
 import { GiTireIronCross } from "react-icons/gi";
 
 export const Navbar = () => {
@@ -20,24 +19,19 @@ export const Navbar = () => {
 
   const socialLinks = [
     {
-      icon: <RxNotionLogo />,
-      title: "Notion",
-      href: "https://www.notion.so/B-Farooq-241f9f953c1580bda8e6c6288fa77cd1",
-    },
-    {
       icon: <SiGithub />,
       title: "GitHub",
-      href: "https://github.com/Farooq722",
+      href: "https://github.com/09ahmad",
     },
     {
       icon: <TbBrandLinkedin size={26} />,
       title: "LinkedIn",
-      href: "https://www.linkedin.com/in/b-farooq-46728a216",
+      href: "https://www.linkedin.com/in/sk-ahmad-2a4633261/",
     },
     {
       icon: <RiTwitterXLine />,
       title: "Twitter",
-      href: "https://x.com/iam_farooq_",
+      href: "https://x.com/sK_a8mad",
     },
   ];
 
@@ -45,7 +39,7 @@ export const Navbar = () => {
     <nav className="text-white py-2">
       <div className="flex justify-between items-center relative z-50">
         <div className="text-3xl font-bold flex items-center gap-1.5">
-          <h1 className="font-serif leading-tight">B Farooq</h1>
+          <h1 className="font-serif leading-tight">Sk Ahmad</h1>
           <span className="relative flex h-2 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-600 opacity-75" />
             <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-800" />

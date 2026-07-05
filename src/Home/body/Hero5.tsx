@@ -7,11 +7,11 @@ export const Hero5 = () => {
           media! 🚀
         </p>
         <p className="mt-1 text-gray-400 p-2 text-sm">
-          © 2025 <span className="text-white font-medium italic">Farooq</span>.
+          © 2025 <span className="text-white font-medium italic">Sk Ahmad</span>.
           All rights reserved.
         </p>
         <p className="text-gray-400 p-2 text-xs">
-          Made with 💓 by Farooq
+          Made with 💓 by Sk Ahmad
         </p>
       </div>
       <span className="block h-[1px] bg-gradient-to-r from-transparent via-neutral-500 to-transparent rounded-2xl" />

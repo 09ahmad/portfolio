@@ -4,46 +4,44 @@ import { VscLiveShare } from "react-icons/vsc";
 export const Hero2 = () => {
   const projects = [
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "same.dev",
+      github: "https://github.com/09ahmad/same.dev",
+      href: "https://sm.samedev.space/",
       decs:
-        "100xDevs Alumni is a community-driven platform where graduates of the 100xDevs program connect, showcase profiles, and collaborate. It helps alumni network, share opportunities, and mentor peers while enabling recruiters to discover talent. With features like directories, role management, and analytics, it strengthens professional growth and long-term collaboration.",
+        "An AI-powered website builder that allows users to instantly generate, customize, and deploy fully functional frontend layouts and web apps directly from natural language prompts.",
     },
     {
-      title: "Mediom Blog",
-      github: "https://github.com/Farooq722/medium",
-      href: "https://mediom-five.vercel.app",
+      title: "opendraw",
+      github: "https://github.com/09ahmad/opendraw",
+      href: "https://opendraw.live/",
       decs:
-        "Medium is an online publishing platform where writers share stories, ideas, and insights with a global audience. It provides a clean, distraction-free writing experience and allows readers to engage through highlights and comments. Writers can grow audiences, join the Partner Program, and earn from readership, making storytelling widely accessible.",
+        "A real-time collaborative drawing canvas built for high performance, allowing multiple users to brainstorm, sketch, and edit drawings simultaneously with smooth synchronization.",
     },
     {
-      title: "Gen Image AI",
-      github: "https://github.com/Farooq722/Gen-Image",
-      href: "https://gen-image-fe.vercel.app",
+      title: "Analytics Dashboard",
+      github: "https://github.com/09ahmad/analytics-",
+      href: "https://analytics-beryl-mu.vercel.app/",
       decs:
-        "Gen Image AI model use deep learning to create realistic or artistic visuals from text prompts. Trained on vast image–text datasets, they learn patterns of style, color, and composition. Users simply describe what they imagine, and the model generates unique images, revolutionizing creativity, design, and visual content creation globally.",
+        "A lightweight and real-time web analytics tracking library and dashboard designed to capture, process, and visualize visitor metrics and session events.",
     },
     {
-      title: "1bullex Landing Page",
-      github: "https://github.com/Farooq722/bull-landing-page",
-      href: "https://1bullex.vercel.app",
+      title: "Drop File Share",
+      github: "https://github.com/09ahmad/drop-FE",
+      href: "https://drop-fe-lovat.vercel.app/",
       decs:
-        "1Bullex Landing Page highlights modern design, responsive layouts, and interactive UI components. Built with clean code, animations, and Tailwind, it demonstrates creativity, frontend expertise, and attention to user experience.",
+        "A modern, user-friendly file-sharing web application enabling drag-and-drop uploads, temporary storage, and fast, secure, shareable download links.",
     },
     {
-      title: "Appit Landing Page",
-      github: "https://github.com/Farooq722/appit-landing-page",
-      href: "https://appit-ten.vercel.app",
+      title: "Order Book Exchange",
+      github: "https://github.com/09ahmad/exchange",
       decs:
-        "Appit Landing Page showcases sleek design, responsive sections, and interactive elements. Built with modern frontend tools, it demonstrates user-focused UI, smooth animations, and clean code to highlight professional web development skills.",
+        "A high-throughput financial exchange engine and order-matching platform designed for fast execution, real-time bid/ask updates, and order book persistence.",
     },
     {
-      title: "Paytm Replica",
-      github: "https://github.com/Farooq722/paytm",
-      href: "https://github.com/Farooq722/paytm",
+      title: "Chat History Service",
+      github: "https://github.com/09ahmad/chat-history",
       decs:
-        "This project is a Paytm-like application that enables users to sign up, log in, transfer money between accounts, and view account details via a dashboard. It features a simple wallet system with secure authentication and transaction capabilities, utilizing modern web technologies.",
+        "A robust backend service and API endpoint system designed to handle high-concurrency real-time message storage, indexing, and fast, paginated chat history retrieval.",
     },
   ];
 
@@ -54,7 +52,7 @@ export const Hero2 = () => {
       </h1>
       <p className="text-sm mt-2 text-gray-300 tracking-[0.7px] text-center sm:text-left">
         My work is available at{" "}
-        <span className="text-white font-medium">X, LinkedIn & Notion</span>
+        <span className="text-white font-medium">X & LinkedIn</span>
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2  gap-3 sm:gap-4 py-2">
@@ -71,16 +69,20 @@ export const Hero2 = () => {
               {project.decs}
             </p>
             <div className="flex items-center gap-6 mt-4">
-              <a
-                href={project.href}
-                target="_blank"
-                className="text-gray-400 hover:text-red-100"
-              >
-                <VscLiveShare size={20} />
-              </a>
+              {project.href && (
+                <a
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-red-100"
+                >
+                  <VscLiveShare size={20} />
+                </a>
+              )}
               <a
                 href={project.github}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-100"
               >
                 <ImGithub size={20} />
@@ -96,8 +98,8 @@ export const Hero2 = () => {
         </h1>
         <div className="w-full p-4 overflow-x-auto">
           <img
-            src="https://ghchart.rshah.org/Farooq722"
-            alt="Farooq Github chart"
+            src="https://ghchart.rshah.org/09ahmad"
+            alt="Ahmad Github chart"
             className="min-w-[600px] max-w-none h-full"
           />
         </div>

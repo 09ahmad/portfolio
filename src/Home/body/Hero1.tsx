@@ -1,5 +1,5 @@
 import { SlLocationPin } from "react-icons/sl";
-import { PiSuitcaseSimpleFill } from "react-icons/pi";
+import { PiSuitcaseSimpleFill, PiGraduationCapFill } from "react-icons/pi";
 import { RiMailSendLine } from "react-icons/ri";
 
 export const Hero1 = () => {
@@ -36,6 +36,13 @@ export const Hero1 = () => {
             <p className="text-sm leading-tight font-medium text-slate-300 font-serif">
               Turning ideas into clean, reliable web apps.
             </p>
+            <div className="flex items-start gap-2 pt-2 text-left text-xs text-slate-400">
+              <PiGraduationCapFill className="text-pink-600 mt-0.5 shrink-0" size={18} />
+              <div>
+                <p className="font-semibold text-slate-300">Bachelor of Technology in Computer Science Engineering</p>
+                <p className="text-slate-400">Greater Noida Institute of Technology, Greater Noida, Uttar Pradesh</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -49,7 +56,7 @@ export const Hero1 = () => {
               <span className="text-gray-200 font-semibold text-sm">
                 {item.id === "mail" ? (
                   <a
-                    href="mailto:bfarooq2022@gmail.com"
+                    href="mailto:shkhahmad64@gmail.com"
                     target="_blank"
                     className="border-none hover:text-gray-400"
                   >
