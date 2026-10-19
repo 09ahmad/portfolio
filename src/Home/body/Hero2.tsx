@@ -4,6 +4,13 @@ import { VscLiveShare } from "react-icons/vsc";
 export const Hero2 = () => {
   const projects = [
     {
+      title: "TaskFlow Pro",
+      github: "https://github.com/09ahmad/kanban-board-DAG",
+      href: "https://fe.opendraw.live/",
+      decs:
+        "A Kanban project management web app for engineering teams with DAG-based dependency management, real-time WebSocket updates, AI-powered dependency suggestions, and critical path analysis. Built with Next.js, Express, PostgreSQL, Redis, and Prisma.",
+    },
+    {
       title: "same.dev",
       github: "https://github.com/09ahmad/same.dev",
       href: "https://sm.samedev.space/",
