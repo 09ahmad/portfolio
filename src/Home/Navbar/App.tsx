@@ -26,7 +26,7 @@ export const Navbar = () => {
     {
       icon: <TbBrandLinkedin size={26} />,
       title: "LinkedIn",
-      href: "https://www.linkedin.com/in/sk-ahmad-2a4633261/",
+      href: "https://www.linkedin.com/in/shaikh-ahmad-2a4633261",
     },
     {
       icon: <RiTwitterXLine />,
