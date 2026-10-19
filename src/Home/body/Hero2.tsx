@@ -18,6 +18,12 @@ export const Hero2 = () => {
         "An AI-powered website builder that allows users to instantly generate, customize, and deploy fully functional frontend layouts and web apps directly from natural language prompts.",
     },
     {
+      title: "Code Review Agent",
+      github: "https://github.com/09ahmad/code-review-agent",
+      decs:
+        "An autonomous code review agent using a QLoRA fine-tuned LLM (Qwen2.5-Coder) orchestrated via LangGraph. Combines static analysis (ruff), sandboxed test execution, RAG over past bug patterns, and confidence-based self-scoring with human escalation. Demonstrates model fine-tuning and agentic system design.",
+    },
+    {
       title: "opendraw",
       github: "https://github.com/09ahmad/opendraw",
       href: "https://opendraw.live/",

@@ -4,6 +4,7 @@ import { Hero3 } from "./body/Hero3";
 import { Hero4 } from "./body/Hero4";
 import { Hero5 } from "./body/Hero5";
 import { OpenSource } from "./body/OpenSource";
+import { Experience } from "./body/Experience";
 import { Navbar } from "./Navbar/App";
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
       <Hero1 />
       <span className="block h-[1px] border border-gray-800 w-full" />
       <Hero3 />
+      <Experience />
       <Hero2 />
       <OpenSource />
       <Hero4 />
