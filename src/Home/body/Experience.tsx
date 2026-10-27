@@ -9,9 +9,11 @@ export const Experience = () => {
         <div className="border-l-2 border-pink-500 pl-4">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h2 className="text-xl font-semibold text-gray-200">AI Engineer</h2>
+              <h2 className="text-xl font-semibold text-gray-200">
+                AI Engineer
+              </h2>
               <p className="text-pink-400 font-medium">JellyGit · Indore, MP</p>
-              <p className="text-sm text-gray-400">Sep 2025 – Present</p>
+              <p className="text-sm text-gray-400">January 2025 – Present</p>
             </div>
           </div>
         </div>
